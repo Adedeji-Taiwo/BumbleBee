@@ -302,6 +302,10 @@ main {
 }
 
 
+ul li div.flex span:nth-child(1) {
+    color: #0999d4;
+} 
+
 #gallery h2 {
     color: #0999d4;  
 }
