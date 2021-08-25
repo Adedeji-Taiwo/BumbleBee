@@ -330,7 +330,7 @@ ul li div.flex span:nth-child(1) {
     animation-delay: 1000ms;
 }
 
-body > footer > div.container.px-6.py-4.mx-auto > div > div {
+body > footer > div.px-6.py-4.mx-auto > div > div {
     grid-gap: 50px;
 }
 
@@ -689,7 +689,7 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
         font-size: 70px;
     }
 
-    footer > div.container.px-6.py-4.mx-auto > div > div > div.text-white > p > span.text-lg.mb-3 {
+    footer > div.px-6.py-4.mx-auto > div > div > div.text-white > p > span.text-lg.mb-3 {
         font-size: 15px;
     }
 
@@ -895,16 +895,16 @@ nav > div > div.flex.items-center.justify-between {
     margin-bottom: 5px;
 }
 
-footer > div.container.px-6.py-4.mx-auto > div > div > div:nth-child(1) > div.pt-5.flex.max-w-xs.items-center.ml-2 {
+footer > div.px-6.py-4.mx-auto > div > div > div:nth-child(1) > div.pt-5.flex.max-w-xs.items-center.ml-2 {
     margin-left: 0;
 }
 
-footer > div.container.px-6.py-4.mx-auto {
+footer > div.px-6.py-4.mx-auto {
     padding-top: 40px;
     padding-left: 25px;
 }
 
-footer > div.container.px-6.py-4.mx-auto > div > div {
+footer > div.px-6.py-4.mx-auto > div > div {
     flex-direction: column;
     grid-gap: 40px;
 }
@@ -915,7 +915,7 @@ footer > div.container.px-6.py-4.mx-auto > div > div {
     padding-left: 0;
 }
 
-body > footer > div.container.px-6.py-4.mx-auto > div > div > div.text-white.text-lg {
+body > footer > div.px-6.py-4.mx-auto > div > div > div.text-white.text-lg {
     padding-left: 0;
     width: 100%;
 }
@@ -924,13 +924,13 @@ body > footer > div.container.px-6.py-4.mx-auto > div > div > div.text-white.tex
     letter-spacing: 4px;
 }
 
-footer > div.container.px-6.py-4.mx-auto > div > div > div.text-white > p > span.text-xl.mb-3.font-light{
+footer > div.px-6.py-4.mx-auto > div > div > div.text-white > p > span.text-xl.mb-3.font-light{
     font-size: 30px;
     font-weight: normal;
     margin-bottom: 23px;
 }
 
-footer > div.container.px-6.py-4.mx-auto > div > div > div.text-white > p > span.text-sm.mb-3 {
+footer > div.px-6.py-4.mx-auto > div > div > div.text-white > p > span.text-sm.mb-3 {
     font-size: 16px;
     margin-bottom: 20px;
     font-weight: lighter;
