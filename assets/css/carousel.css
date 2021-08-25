@@ -331,7 +331,7 @@ ul li div.flex span:nth-child(1) {
 }
 
 body > footer > div.px-6.py-4.mx-auto > div > div {
-    grid-gap: 50px;
+    grid-gap: 60px;
 }
 
 body > footer > div.px-6.py-4.mx-auto > div > div > div.text-white.text-lg > p {
