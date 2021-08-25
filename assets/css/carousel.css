@@ -334,6 +334,10 @@ body > footer > div.px-6.py-4.mx-auto > div > div {
     grid-gap: 50px;
 }
 
+body > footer > div.px-6.py-4.mx-auto > div > div > div.text-white.text-lg > p {
+    width: 90%;   
+}
+
 #footerText, #rights {
     font-size: small;
     color: #ffffff;
