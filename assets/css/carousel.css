@@ -12,6 +12,12 @@ body{
     grid-gap: 6%;
 }
 
+
+#logo {
+    width: 30%;
+    height: 30%;
+}
+
 p.name {
     font-weight: bolder;
     font-size: 20px;
@@ -751,6 +757,11 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
 }  
 
 @media screen and (max-width: 580px) {
+#logo {
+    width: 53px;
+    height: 48px;
+}
+
 #main > div.slideshow-container.bg-black {
     padding-top: 0;
 }
