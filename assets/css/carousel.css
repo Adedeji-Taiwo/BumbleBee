@@ -870,6 +870,7 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
 
 #arrow {
     align-self: flex-end;
+    top: 2px;
 }
 
 main {
