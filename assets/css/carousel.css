@@ -967,8 +967,9 @@ footer > div.flex.justify-center > div {
     width: 95%;
  } 
  
- .login-main > div > div {
-    margin-right: 0;    
+ .login-main > div > div, .login-main > div > div > div.text-center, .login-main > div > div > div.flex.flex-row.justify-center.items-center.space-x-3, .login-main > div > div > div.flex.items-center.justify-center.space-x-2, .login-main form div:nth-child(1) {
+    margin: auto;
+     margin-right: 0px;
  }
     
 /*signup page*/
