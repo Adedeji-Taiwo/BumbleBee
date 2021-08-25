@@ -758,8 +758,8 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
 
 @media screen and (max-width: 580px) {
 #logo {
-    width: 53px;
-    height: 48px;
+    width: 56px;
+    height: 43px;
 }
 
 #main > div.slideshow-container.bg-black {
