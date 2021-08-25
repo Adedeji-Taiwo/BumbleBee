@@ -962,6 +962,10 @@ footer > div.flex.justify-center > div {
     padding-top: 1%;
     padding-bottom: 6%;
 }
+    
+.login-main  div { 
+    width: 90%
+       } 
 
 /*signup page*/
 .signup-main {
