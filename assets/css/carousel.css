@@ -976,8 +976,8 @@ footer > div.flex.justify-center > div {
     width: 100%;
  }
     
- .login-main > div > form > div.flex.items-center.justify-between.mb-6 {
-     padding-left: 4px;
+ .login-main > div > form > div.flex.items-center.justify-between.mb-6 > div.text-sm {
+     padding-left: 3px;
  }
     
     
