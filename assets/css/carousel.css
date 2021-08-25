@@ -296,9 +296,10 @@ main {
 
 #arrow {
     font-size: 30px;
+    font-weight: bold;
     margin-left: 5px;
     position: relative;
-    top:-2.5px;
+    top:-3.5px;
 }
 
 
