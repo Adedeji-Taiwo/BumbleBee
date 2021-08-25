@@ -967,7 +967,7 @@ footer > div.flex.justify-center > div {
     width: 95%;
  } 
  
- .login-main > div > div, .login-main > div > div > div.text-center, .login-main > div > div > div.flex.flex-row.justify-center.items-center.space-x-3, .login-main > div > div > div.flex.items-center.justify-center.space-x-2, .login-main form div:nth-child(1), .login-main form div:nth-child(2), .login-main form div:nth-child(3){
+ .login-main > div > div, .login-main > div > div > div.text-center, .login-main > div > div > div.flex.flex-row.justify-center.items-center.space-x-3, .login-main > div > div > div.flex.items-center.justify-center.space-x-2, .login-main form > div{
      margin-right: auto;
      margin-left: auto;
  }
