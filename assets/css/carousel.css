@@ -971,6 +971,10 @@ footer > div.flex.justify-center > div {
      margin-right: auto;
      margin-left: auto;
  }
+ 
+ .login-main > div > form > div.flex.flex-col.mb-6 > div {
+    width: 100%;
+ }
     
 /*signup page*/
 .signup-main {
