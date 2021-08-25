@@ -976,6 +976,10 @@ footer > div.flex.justify-center > div {
     width: 100%;
  }
     
+ .login-main > div > form > div.flex.items-center.justify-between.mb-6 {
+     padding-left: 2px;
+ }
+    
     
 /*signup page*/
 .signup-main {
