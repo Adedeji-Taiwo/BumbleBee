@@ -702,7 +702,7 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
     }
     
     body > footer > div.px-6.py-4.mx-auto > div > div {
-    grid-gap: 50px;
+    grid-gap: 40px;
 }
 
 body > footer > div.px-6.py-4.mx-auto > div > div > div:nth-child(1) {
