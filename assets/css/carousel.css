@@ -758,7 +758,7 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
 
 @media screen and (max-width: 580px) {
 #logo {
-    width: 162px;
+    width: 30%;
     height: 43px;
 }
 
