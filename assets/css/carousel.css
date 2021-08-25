@@ -798,7 +798,7 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
 
 #slide1::before {
     background-position: 110px 75px;
-    background-size: 440px 80%; 
+    background-size: 430px 80%; 
 }
 
 #slide2::before {
@@ -870,7 +870,6 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
 
 #arrow {
     align-self: flex-end;
-    top: 4px
 }
 
 main {
