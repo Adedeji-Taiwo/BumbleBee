@@ -300,7 +300,7 @@ main {
     border: 4px solid #1984ba;
 }
 
-#arrow,  #gallery # arrow {
+#arroarrow{
     font-size: 30px;
     font-weight: bold;
     margin-left: 5px;
@@ -324,7 +324,7 @@ ul li div.flex span:nth-child(1) {
     font-weight:lighter;
 }
 
-#arrow:hover, #gallery #arrow:hover {
+#arrow:hover, #gallery # {
     animation: bounce 2s ease-in-out;
     -webkit-animation: bounce 2s ease-in-out;
     animation-delay: 1000ms;
@@ -758,7 +758,7 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
 
 @media screen and (max-width: 580px) {
 img#logo {
-    width: 58px;
+    width: 57px;
     height: 43px;
 }
 
@@ -879,7 +879,7 @@ img#logo {
     display: none;
 }
 
-#arrow,  #gallery #arrow {
+#arrow {
     margin-top:10px;
 }
 
