@@ -150,11 +150,7 @@ function showSlidesArrow(n) {
 
 
 
-let today = new Date();
-let year = today.getFullYear();
-document.querySelector(".year").innerHTML = year;
-
-
+ 
 
 //Animated Arrows
 proceed = () => {
