@@ -674,14 +674,14 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
 
 
 
-@media only screen and (min-width: 700px) and (max-width: 1023px) {
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
     #menus div:nth-child(1)  a:nth-child(2) {
         display: none;
        } 
 } 
 
 
-@media only screen and (min-width: 768px) and (max-width: 890px) {
+@media only screen and (min-width: 769px) and (max-width: 890px) {
      #subscribe {
         display: none;
     }
@@ -697,13 +697,109 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
     #login {
     background-color:  #0999d4;
     }
+    
+     #menus1 > div {
+           display: none;
+       }
 } 
 
 
 
 
+
+
+
+
 @media screen and (max-width: 768px) {
-   
+       img#logo, footer img#logo {
+        width: 54px;
+        height: 51px;
+    }
+
+    #split > div.flex.items-center.justify-between > div.flex.items-center > a > p {
+        align-self:center;
+        padding-top: 5px;
+    }
+
+    .name span {
+        font-size: 33px;
+    }
+
+    #crumbs a {
+        font-size: 17px;
+    }
+
+    #toggle {
+        display: block;
+    }
+
+    #split {
+    flex-direction: column;
+    }
+
+    #split > div.flex.items-center.justify-between {
+    width: 100%;
+    }
+
+    #menus > div {
+        flex-direction: column;
+        grid-gap: 6px;
+        margin: auto 0px;
+    }
+
+    #menus {
+        margin: 20px 0;
+        align-self:flex-start;
+    }
+
+    #menus a {
+        font-size: larger;
+        font-weight:normal;
+    }
+
+    #menus.hidden, #menus1.hidden, #menus2.hidden {
+        display: none;
+    }
+
+    #menus1 {
+        display: flex;
+        margin-bottom: 15px;
+        align-self: flex-start;
+        width: 100%;
+    }
+
+    #login, #subscribe {
+        width: 50%;
+        font-size: larger;
+    }
+
+    #menus1 > div {
+        display: none;
+    }
+
+    #menus2 {
+        display: block;
+        width: 100%;
+        margin-top: 7px;
+    }
+    #\ input {
+        font-size: larger;
+    }
+
+    #crumbs {
+        margin: 0 2%;
+    }
+
+
+    main {
+        margin-top: 15%;
+    }
+
+    .push-down {
+        margin-top: 500px;
+    }
+
+
     #slide1::before {
         background-position: 130% 110px;  
     }
@@ -752,20 +848,20 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
    
     
     
-    
-body > footer > div.px-6.py-4.mx-auto > div > div {
-    grid-gap: 35px;
-}
 
-body > footer > div.px-6.py-4.mx-auto > div > div > div:nth-child(1) {
-    margin-right: 0px; 
-}
+    body > footer > div.px-6.py-4.mx-auto > div > div {
+        grid-gap: 35px;
+    }
 
-body > footer > div.px-6.py-4.mx-auto > div > div > div.text-white.text-lg > p {
-    width: 90%;   
-}
-  
-    
+    body > footer > div.px-6.py-4.mx-auto > div > div > div:nth-child(1) {
+        margin-right: 0px; 
+    }
+
+    body > footer > div.px-6.py-4.mx-auto > div > div > div.text-white.text-lg > p {
+        width: 90%;   
+    }
+
+
     #arrow {
         margin-left: 10px;
     }
@@ -832,7 +928,47 @@ body > footer > div.px-6.py-4.mx-auto > div > div > div.text-white.text-lg > p {
 
 
 
-@media screen and (max-width: 580px) {
+@media only screen and (min-width: 541px) and (max-width: 650px) {
+    #slide1::before {
+        background-position: 200% 95px;
+        background-size: 450px 80%; 
+    }
+    
+    #slide2::before {
+        background-position: 220% 35px;
+        background-size: auto 85%;
+    }
+    
+    #slide3::before {
+        background-position: 200% 75px;
+        background-size: 450px 75%; 
+    }
+
+    .box p span:nth-child(1) {
+        font-size: 18px;
+        letter-spacing: 3px;
+        margin-bottom: 2px;
+        padding-top: 5%;
+    }
+    
+    .box p span:nth-child(2), .box p span:nth-child(3) {
+        font-size: 58px;
+        font-weight: bold;
+        line-height: 47.5px;
+        letter-spacing: 1px;
+        color:  #0999d4;
+    }
+    
+    .box p span:nth-child(2) {
+        color: #ffffff;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 540px) {
 img#logo, footer img#logo {
     width: 46px;
     height: 43px;
@@ -960,7 +1096,7 @@ img#logo, footer img#logo {
 }
 
 main {
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
 .push-down {
