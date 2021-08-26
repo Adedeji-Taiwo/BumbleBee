@@ -154,7 +154,7 @@ function showSlidesArrow(n) {
 
 //Animated Arrows
 proceed = () => {
-  const arrow = document.querySelectorAll("#arrow");
+  const arrow = document.getElementById("arrow");
 
   let id = null;
   let pos = 0;
