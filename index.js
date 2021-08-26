@@ -215,16 +215,16 @@ function myFunction() {
 
  
 
-/*
-//stat in viewport
+
+//hide chatbox at footer (back to top button)
 var observer = new IntersectionObserver(function(entries) {
 	// isIntersecting is true when element and viewport are overlapping
 	// isIntersecting is false when element and viewport don't overlap
 	if(entries[0].isIntersecting === true)
-		console.log('Element has just become visible in screen');
-}, { threshold: [0.5] });
+		document.querySelector("#chatBox").style.opacity = "0";
+}, { threshold: [0.2] });
 
-observer.observe(document.querySelector("#stat"));*/
+observer.observe(document.querySelector("#top"));
 
 
 
