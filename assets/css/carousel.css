@@ -661,7 +661,9 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
 
 
 @media only screen and (min-width: 700px) and (max-width: 1023px) {
-    
+    #menus div:nth-child(1)  a:nth-child(2) {
+        display: none;
+       }} 
 } 
 
 
