@@ -12,9 +12,6 @@ body{
     background: transparent; /* make scrollbar transparent */
 }
 
-footer {
-    margin-top: auto;
-}
 
 #split {
     grid-gap: 6%;
@@ -402,6 +399,10 @@ body > footer > div.px-6.py-4.mx-auto > div > div > div.text-white.text-lg > p {
     margin-top: 3%;
 }
 
+footer {
+    margin-top: auto;
+}
+
 footer, footer button {
  background-color: #1e1e1e;
 }
@@ -473,7 +474,7 @@ form > div.flex.items-center.mb-6.-mt-4 > div > a:hover, #main > div > div.flex.
 
 .login-main {
     padding-top: 50px;
-    padding-bottom: 31%;
+    /*padding-bottom: 31%;*/
 }
 
 
@@ -530,7 +531,7 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
 
 .forgotten-main {
     padding-top: 70px;
-    padding-bottom: 26%;
+    /*padding-bottom: 26%;*/
 }
 
 /*contact page*/
