@@ -1,6 +1,7 @@
 body{
     font-family: 'Manrope', sans-serif;
     scroll-behavior: smooth;
+    min-height: 100%;
 }
 
 .scroll-hidden::-webkit-scrollbar {
@@ -8,9 +9,11 @@ body{
     background: transparent; /* make scrollbar transparent */
 }
 
-.pageWrap {
-    display: flex;
-    flex-direction: column;
+footer {
+    clear: both;
+    position: relative;
+    height: 100%;
+    margin-top: -100%;
 }
 
 #split {
@@ -105,7 +108,6 @@ div#menus1 {
 
 main {
     margin-top: 8.5%;
-    flex-grow: 1;
 }
 
 #team {
