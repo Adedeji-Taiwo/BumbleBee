@@ -1043,11 +1043,14 @@ footer > div.flex.justify-center > div {
 /*contact page*/
 .contact-main {
     width: 90%;
+     margin-top: 0px;
 }
     
-.contact-main {
-    margin-top: 0px;
- }
+ 
+ .contact-main > div:nth-child(4) > div.items-center.-mx-2.md\:flex > div:nth-child(1), .contact-main > div:nth-child(4) > div.items-center.-mx-2.md\:flex > div:nth-child(2) {
+     width: 90%;
+    }
+
  
  
 
