@@ -779,8 +779,9 @@ body > footer > div.px-6.py-4.mx-auto > div > div > div.text-white.text-lg > p {
     }
 
     #main > div.slideshow-container.flex-col.text-white > div:nth-child(1) {
-        padding-top: 60px;
+        padding-top: 100px;
     }
+    
 
     #main > div.slideshow-container.flex-col.text-white > div.flex.justify-between.pt-6 > p.text-6xl.font-normal {
         font-size: 50px;
