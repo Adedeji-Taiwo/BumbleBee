@@ -154,7 +154,7 @@ function showSlidesArrow(n) {
 
 //Animated Arrows
 proceed = () => {
-  const arrow = document.getElementById("arrow");
+  const arrow = document.querySelectorAll("arrow");
 
   let id = null;
   let pos = 0;
@@ -165,11 +165,11 @@ proceed = () => {
       clearInterval(id);
     } else {
       pos++;
-    //  arrow.forEach(function(arrow) {
+      arrow.forEach(function(arrow) {
         arrow.style.left = `${pos}px`;
 	arrow.style.right = `${-pos}px`;
 
-    //  })
+      })
     }
   }
 }
