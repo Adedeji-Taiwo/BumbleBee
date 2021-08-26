@@ -334,7 +334,7 @@ ul li div.flex span:nth-child(1) {
     font-weight:lighter;
 }
 
-#arrow:hover  {
+#arrow:hover, #gallery # {
     animation: bounce 2s ease-in-out;
     -webkit-animation: bounce 2s ease-in-out;
     animation-delay: 1000ms;
@@ -350,7 +350,7 @@ body > footer > div.px-6.py-4.mx-auto > div > div > div:nth-child(1) {
 
 body > footer > div.px-6.py-4.mx-auto > div > div > div.text-white.text-lg > p {
     width: 95%;   
-}  
+}
 
 #footerText, #rights {
     font-size: small;
@@ -730,13 +730,13 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
         font-size: 15px;
     }
     
-    body > footer > div.px-6.py-4.mx-auto > div > div {
-    grid-gap: -25px;
+    footer > div.px-6.py-4.mx-auto > div > div {
+    grid-gap: 425px;
 }
     
     
 
-    body > footer > div.px-6.py-4.mx-auto > div > div > div:nth-child(1) {
+    footer > div.px-6.py-4.mx-auto > div > div > div:nth-child(1) {
     margin-right: 0px; 
 }
     
