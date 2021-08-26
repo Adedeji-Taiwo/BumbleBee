@@ -19,8 +19,8 @@ body{
 
 
 img#logo {
-    width: 30%;
-    height: 30%;
+    width: 26%;
+    height: 26%;
 }
 
 footer img#logo {
@@ -446,7 +446,19 @@ footer > div.flex.justify-center > div {
 #subscribeButton {
     margin-top: 10px;
     } 
- 
+
+/*chat */
+
+body > a > div {
+    background-color: #1174a4;
+}
+
+body > a:hover {
+    background-color: #1174a4;
+}
+body > a {
+    background-color: #0999d4;
+}
 
 
 /*Login page*/
@@ -721,13 +733,13 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
         padding-top: 5px;
     }
 
-    .name span {
+    /*.name span {
         font-size: 33px;
     }
 
     #crumbs a {
         font-size: 17px;
-    }
+    }*/
 
     #toggle {
         display: block;
@@ -810,7 +822,7 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
     }
     
     #slide3::before {
-        background-position: 140% 100px;
+        background-position: 160% 100px;
     }
     
     .box p.text-white span:nth-child(2), .box p.text-white span:nth-child(3) {
