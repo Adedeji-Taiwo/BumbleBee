@@ -681,11 +681,8 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
 } 
 
 
-
-
-
-@media screen and (max-width: 768px) {
-    #subscribe {
+@media only screen and (min-width: 768px) and (max-width: 890px) {
+     #subscribe {
         display: none;
     }
     
@@ -700,7 +697,13 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
     #login {
     background-color:  #0999d4;
     }
-    
+} 
+
+
+
+
+@media screen and (max-width: 768px) {
+   
     #slide1::before {
         background-position: 130% 110px;  
     }
