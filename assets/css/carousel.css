@@ -13,9 +13,14 @@ body{
 }
 
 
-#logo {
+img#logo {
     width: 30%;
     height: 30%;
+}
+
+footer img#logo {
+    width: 20%;
+    height: 20%;
 }
 
 p.name {
@@ -787,7 +792,7 @@ body > footer > div.px-6.py-4.mx-auto > div > div > div:nth-child(1) {
 }  
 
 @media screen and (max-width: 580px) {
-img#logo {
+img#logo, footer img#logo {
     width: 46px;
     height: 43px;
 }
