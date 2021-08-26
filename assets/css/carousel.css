@@ -684,6 +684,135 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
 
 
 
+@media screen and (max-width: 768px) {
+    #slide1::before {
+        background-position: 130% 110px;  
+    }
+    
+    #slide2::before {
+        background-position: 140% 35px;
+    
+    }
+    
+    #slide3::before {
+        background-position: 140% 100px;
+    }
+    
+    .box p.text-white span:nth-child(2), .box p.text-white span:nth-child(3) {
+        font-weight: bold;
+    }
+    
+    .box p.text-white span:nth-child(4){
+        font-weight: 400;
+        font-size: 16px;
+    }
+    
+    #slide1, #slide2, #slide3 {
+        position: relative;
+        height: 550px;
+    }
+    
+    
+    .box p.text-white {
+        padding-top: 18%;
+    }
+
+    .box p span:nth-child(1) {
+        font-size: 18px;
+    }
+
+    
+    .box span:nth-child(2),  .box span:nth-child(3)  {
+        font-size: 70px;
+    }
+
+    footer > div.px-6.py-4.mx-auto > div > div > div.text-white > p > span.text-lg.mb-3 {
+        font-size: 15px;
+    }
+    
+   
+    
+    
+    
+body > footer > div.px-6.py-4.mx-auto > div > div {
+    grid-gap: 30px;
+}
+
+body > footer > div.px-6.py-4.mx-auto > div > div > div:nth-child(1) {
+    margin-right: 0px; 
+}
+
+body > footer > div.px-6.py-4.mx-auto > div > div > div.text-white.text-lg > p {
+    width: 80%;   
+}
+  
+    
+    #arrow {
+        margin-left: 10px;
+    }
+
+   
+    /*login page*/
+    .login-main {
+        padding-top: 10%;
+        padding-bottom: 5%;
+    }
+
+    /*signup page*/
+    .signup-main {
+        padding-top: 100px;
+        padding-bottom: 24%;
+    }
+
+    /*forgotten page*/
+    .forgotten-main {
+        padding-top: 90px;
+        padding-bottom: 5%;
+    }
+
+    /*help page*/ 
+    #main > div.slideshow-container.flex-col.text-white > div.flex.justify-between.pt-6 > p.self-center {
+        width: 50%;
+        justify-self: flex-end;
+        padding-right: 0;
+        padding-left: 20px;
+    }
+
+    #main > div.slideshow-container.flex-col.text-white > div:nth-child(1) {
+        padding-top: 60px;
+    }
+    
+
+    #main > div.slideshow-container.flex-col.text-white > div.flex.justify-between.pt-6 > p.text-6xl.font-normal {
+        font-size: 50px;
+    }
+    #main > div.slideshow-container.flex-col.text-white > div.flex.justify-between.pt-6 {
+        padding-bottom: 20px;
+    }
+
+    /*blog page*/
+    #main > section > div > div.header.flex.md\:flex.items-end.justify-between.mb-12 > div.title {
+        padding-top: 20px;
+    }
+
+    #main > section > div > div.header.flex.md\:flex.items-end.justify-between.mb-12 > div.title > p.text-xl.font-light.text-gray-400{
+        width: 90%;
+        font-size: 17px;
+    }
+    #main > section > div > div.header.flex.md\:flex.items-end.justify-between.mb-12 > div.title > p.text-3xl.font-bold.text-gray-700.mb-4 {
+        font-size: 24px;
+    }
+
+    #main > section > div > div.header.flex.md\:flex.items-end.justify-between.mb-12 > div.text-end {
+        align-self: center;
+    }
+
+    
+}  
+
+
+
+
 @media screen and (max-width: 580px) {
 img#logo, footer img#logo {
     width: 46px;
