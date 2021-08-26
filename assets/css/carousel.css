@@ -685,6 +685,18 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
 
 
 @media screen and (max-width: 768px) {
+    #menus > div > a.my-1.font-bold.text-gray-700.md\:mx-3.md\:my-0 {
+    display: none;
+    }
+
+    #subscribe {
+        display: none;
+    }
+
+    #login {
+    background-color:  #0999d4;
+    }
+    
     #slide1::before {
         background-position: 130% 110px;  
     }
