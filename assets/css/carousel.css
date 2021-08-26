@@ -733,10 +733,13 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
    
     
     
-
     footer > div.px-6.py-4.mx-auto > div > div > div:nth-child(1) {
     margin-right: 0px; 
 }
+    
+    body > footer > div.px-6.py-4.mx-auto > div > div > div.text-white.text-lg > p {
+        width: 150%;
+    }
     
     #arrow {
         margin-left: 10px;
