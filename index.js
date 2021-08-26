@@ -167,6 +167,8 @@ proceed = () => {
       pos++;
       arrow.forEach(function(arrow) {
         arrow.style.left = `${pos}px`;
+	arrow.style.right = `${-pos}px`;
+
       })
     }
   }
