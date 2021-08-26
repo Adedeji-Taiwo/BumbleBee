@@ -430,7 +430,7 @@ footer > div.flex.justify-center > div {
 }
 
 #subscribeButton {
-    margin-top: 5px;
+    margin-top: 10px;
     } 
  
 
@@ -987,6 +987,9 @@ footer > div.flex.justify-center > div {
     width: 90%;
     margin-top: 25px;
 }
+    #subscribeButton {
+        margin-top: 0px;
+         }   
 
  /*login page*/
  .login-main {
