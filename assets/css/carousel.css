@@ -331,7 +331,7 @@ ul li div.flex span:nth-child(1) {
 }
 
 body > footer > div.px-6.py-4.mx-auto > div > div {
-    grid-gap: 70px;
+    grid-gap: 75px;
 }
 
 body > footer > div.px-6.py-4.mx-auto > div > div > div:nth-child(1) {
@@ -339,7 +339,7 @@ body > footer > div.px-6.py-4.mx-auto > div > div > div:nth-child(1) {
 }
 
 body > footer > div.px-6.py-4.mx-auto > div > div > div.text-white.text-lg > p {
-    width: 80%;   
+    width: 85%;   
 }
 
 #footerText, #rights {
