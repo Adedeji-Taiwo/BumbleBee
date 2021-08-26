@@ -737,8 +737,8 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
     margin-right: 0px; 
 }
     
-    body > footer > div.px-6.py-4.mx-auto > div > div > div.text-white.text-lg > p {
-        width: 150%;
+   body > footer > div.px-6.py-4.mx-auto > div > div > div:nth-child(1) > div.pt-5.flex.max-w-xs.items-center.ml-2 {
+    margin-left: 0px;
     }
     
     #arrow {
