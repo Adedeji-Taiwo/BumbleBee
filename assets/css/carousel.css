@@ -660,6 +660,14 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
 
 
 
+@media only screen and (min-width: 700px) and (max-width: 1023px) {
+    
+} 
+
+
+
+
+
 @media screen and (max-width: 768px) {
     #slide1::before {
         background-position: 130% 110px;  
