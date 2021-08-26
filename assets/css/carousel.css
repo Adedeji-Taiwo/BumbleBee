@@ -1044,6 +1044,10 @@ footer > div.flex.justify-center > div {
 .contact-main {
     width: 90%;
 }
+    
+.contact-main > section {
+    margin-top: 0px;
+ }
 
 /*help page*/ 
 
