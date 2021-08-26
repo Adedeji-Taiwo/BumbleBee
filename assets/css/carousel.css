@@ -731,10 +731,10 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
     }
     
     body > footer > div.px-6.py-4.mx-auto > div > div {
-    grid-gap: 40px;
+    grid-gap: 25px;
 }
 
-body > footer > div.px-6.py-4.mx-auto > div > div > div:nth-child(1) {
+    body > footer > div.px-6.py-4.mx-auto > div > div > div:nth-child(1) {
     margin-right: 0px; 
 }
     
