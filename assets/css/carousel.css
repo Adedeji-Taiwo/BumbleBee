@@ -8,6 +8,12 @@ body{
     background: transparent; /* make scrollbar transparent */
 }
 
+.pageWrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 #split {
     grid-gap: 6%;
 }
@@ -100,6 +106,7 @@ div#menus1 {
 
 main {
     margin-top: 8.5%;
+    flex-grow: 1;
 }
 
 #team {
@@ -538,7 +545,7 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
     color: #0999d4;
 }
 .contact-main {
-    margin-bottom: 18%;
+    /*margin-bottom: 18%;*/
     margin-top: 30px;
 }
 
