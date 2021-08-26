@@ -685,12 +685,16 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
 
 
 @media screen and (max-width: 768px) {
-    #menus > div > a.my-1.font-bold.text-gray-700.md\:mx-3.md\:my-0 {
-    display: none;
-    }
-
     #subscribe {
         display: none;
+    }
+    
+    #login {
+        margin-left: 0px;
+    }
+    
+    #menus > div, #menus > div > a:nth-child(6) {
+        margin-right: 0px;
     }
 
     #login {
