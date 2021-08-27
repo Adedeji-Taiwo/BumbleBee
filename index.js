@@ -215,7 +215,7 @@ function myFunction() {
 
  
 
-
+/*
 //hide chatbox at footer (back to top button)
 var observer = new IntersectionObserver(function(entries) {
 	// isIntersecting is true when element and viewport are overlapping
@@ -225,7 +225,7 @@ var observer = new IntersectionObserver(function(entries) {
 }, { threshold: [0.2] });
 
 observer.observe(document.querySelector("#top"));
-
+*/
 
 
 
