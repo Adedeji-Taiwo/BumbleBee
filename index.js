@@ -284,3 +284,55 @@ counters.forEach((counter) => {
 
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+// get the element to animate
+var element2 = document.getElementById('top');
+var elementHeight2 = element2.clientHeight;
+
+// listen for scroll event and call animate function
+document.addEventListener('scroll', animate2);
+
+// check if element is in view
+function inView2() {
+  // get window height
+  var windowHeight = window.innerHeight;
+  // get number of pixels that the document is scrolled
+  var scrollY = window.scrollY || window.pageYOffset;
+  
+  // get current scroll position (distance from the top of the page to the bottom of the current viewport)
+  var scrollPosition = scrollY + windowHeight;
+  // get element position (distance from the top of the page to the bottom of the element)
+  var elementPosition = element2.getBoundingClientRect().top + scrollY + elementHeight2;
+  
+  // is scroll position greater than element position? (is element in view?)
+  if (scrollPosition > elementPosition) {
+    return true;
+  }
+  
+  return false;
+}
+
+
+
+
+// hide chatbox when top is in view
+function animate2() {
+  // is element in view?
+  if (inView()) {
+      // element is in view, add class to element
+       //stat card counter
+const chat = document.querySelector('#chatBox');
+chat.style.display = "none";
+
+  }
+}
