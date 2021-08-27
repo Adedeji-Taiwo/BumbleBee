@@ -713,6 +713,7 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
      #menus1 > div {
            display: none;
        }
+    
 } 
 
 
@@ -963,13 +964,17 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
         line-height: 47.5px;
         letter-spacing: 1px;
         color:  #0999d4;
+        margin-bottom: 2px;
     }
     
     .box p span:nth-child(2) {
         color: #ffffff;
     }
     
-    
+    #arrow {
+        margin-top: 10px;
+    }
+
 
 }
 
