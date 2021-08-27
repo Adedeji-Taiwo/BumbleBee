@@ -739,6 +739,7 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
 
     #toggle {
         display: block;
+        margin-top: 1px;
     }
 
     #split {
@@ -800,7 +801,7 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
 
 
     main {
-        margin-top: 15%;
+        margin-top: 14%;
     }
 
     .push-down {
