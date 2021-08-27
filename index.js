@@ -331,8 +331,10 @@ function animate2() {
   if (inView()) {
       // element is in view, add class to element
        //stat card counter
-const chat = document.querySelector('#chatBox');
-chat.style.display = "none";
-
+	const chat = document.querySelector('#chatBox');
+		chat.style.display = "none";
   }
+	else {
+		chat.style.display = "block";
+	}
 }
