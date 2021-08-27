@@ -855,21 +855,21 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
     footer > div.px-6.py-4.mx-auto > div > div > div.text-white > p > span.text-lg.mb-3 {
         font-size: 15px;
     }
-    
-   
-    
-    
 
-    body > footer > div.px-6.py-4.mx-auto > div > div {
-        grid-gap: 35px;
-    }
+    
 
     body > footer > div.px-6.py-4.mx-auto > div > div > div:nth-child(1) {
         margin-right: 0px; 
     }
 
-    body > footer > div.px-6.py-4.mx-auto > div > div > div.text-white.text-lg > p {
-        width: 90%;   
+    
+    
+  body > footer > div.px-6.py-4.mx-auto > div > div > div.text-white.text-lg {
+        width: 100%;
+  
+    }
+    body > footer > div.px-6.py-4.mx-auto > div > div {
+        flex-wrap: wrap;
     }
 
    
@@ -970,9 +970,6 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
         color: #ffffff;
     }
     
-    #arrow {
-        margin-top: 15px;
-    }
     
     body > footer > div.px-6.py-4.mx-auto > div > div > div.text-white.text-lg {
         width: 100%;
