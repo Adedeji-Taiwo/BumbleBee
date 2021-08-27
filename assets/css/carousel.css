@@ -47,8 +47,8 @@ div#menus {
 
 #header {
     overflow: hidden;
-}
-
+    z-index: 80;
+} 
 
 .sticky {
     position: fixed;
@@ -401,7 +401,7 @@ body > footer > div.px-6.py-4.mx-auto > div > div > div.text-white.text-lg > p {
 
 footer {
     margin-top: auto;
-    z-index: 100;
+    z-index: 70;
 }
 
 footer, footer button {
@@ -985,7 +985,7 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
     }
     
     footer {
-    z-index: 100;
+    z-index: 70;
 }
   
 }
