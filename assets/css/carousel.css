@@ -313,9 +313,7 @@ main {
 #arrow{
     font-size: 30px;
     font-weight: bold;
-    margin-left: 5px;
-    position: relative;
-    top:-4px;
+    margin-left: 10px;
 }
 
 
@@ -334,7 +332,7 @@ ul li div.flex span:nth-child(1) {
     font-weight:lighter;
 }
 
-#arrow:hover, #gallery # {
+#arrow:hover, #gallery {
     animation: bounce 2s ease-in-out;
     -webkit-animation: bounce 2s ease-in-out;
     animation-delay: 1000ms;
@@ -870,11 +868,6 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
         width: 90%;   
     }
 
-
-    #arrow {
-        margin-left: 10px;
-    }
-
    
     /*login page*/
     .login-main {
@@ -1121,10 +1114,12 @@ img#logo, footer img#logo {
 .prev, .next {
     display: none;
 }
-
-#arrow {
-    margin-top:10px;
+    
+.slideshow-container #arrow {
+    position: relative;
+    top: 6px;   
 }
+
 
 main {
     margin-top: 20%;
