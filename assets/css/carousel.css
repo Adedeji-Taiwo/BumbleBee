@@ -801,7 +801,7 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
 
 
     main {
-        margin-top: 12%;
+        margin-top: 15%;
     }
 
     .push-down {
@@ -1014,7 +1014,7 @@ img#logo, footer img#logo {
 }
 
 #menus > div {
-    grid-gap: 4.5px;
+    grid-gap: 5px;
 }
 #menus a {
     font-weight: normal;
@@ -1127,7 +1127,7 @@ img#logo, footer img#logo {
 }
 
 main {
-    margin-top: 17%;
+    margin-top: 10%;
 }
 
 .push-down {
