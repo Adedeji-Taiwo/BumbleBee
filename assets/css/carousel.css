@@ -974,6 +974,61 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
     .box p span:nth-child(2) {
         color: #ffffff;
     }
+    
+    
+footer > div.px-6.py-4.mx-auto > div > div > div:nth-child(1) > div.pt-5.flex.max-w-xs.items-center.ml-2 {
+    margin-left: 0;
+}
+
+footer > div.px-6.py-4.mx-auto {
+    padding-top: 40px;
+    padding-left: 25px;
+}
+
+footer > div.px-6.py-4.mx-auto > div > div {
+    flex-direction: column;
+    grid-gap: 40px;
+}
+
+#footerTex\ text-lg {
+    font-size:medium;
+    letter-spacing: 1px;
+    padding-left: 0;
+}
+
+body > footer > div.px-6.py-4.mx-auto > div > div > div.text-white.text-lg {
+    padding-left: 0;
+    width: 100%;
+}
+
+#footerText h3 {
+    letter-spacing: 4px;
+}
+
+footer > div.px-6.py-4.mx-auto > div > div > div.text-white > p > span.text-xl.mb-3.font-light{
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 23px;
+}
+
+footer > div.px-6.py-4.mx-auto > div > div > div.text-white > p > span.text-sm.mb-3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+
+#faq > a > span{
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+footer #arrow {
+    margin-bottom: 10px;
+}
+
+footer > div.flex.justify-between.px-12.w-full  {
+    padding: 20px 25px;
+}
 
 }
 
