@@ -401,6 +401,7 @@ body > footer > div.px-6.py-4.mx-auto > div > div > div.text-white.text-lg > p {
 
 footer {
     margin-top: auto;
+    z-index: 100;
 }
 
 footer, footer button {
@@ -983,6 +984,9 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
         flex-wrap: wrap;
     }
     
+    footer {
+    z-index: 100;
+}
   
 }
 
