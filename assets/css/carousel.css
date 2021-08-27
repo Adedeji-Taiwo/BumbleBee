@@ -975,11 +975,12 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
         margin-top: 10px;
     }
     
-    body > footer > div.px-6.py-4.mx-auto > div > div > div.text-white.text-lg > p {
-        display: block;
+    body > footer > div.px-6.py-4.mx-auto > div > div > div.text-white.text-lg {
+        width: 100%
     }
-
-
+    body > footer > div.px-6.py-4.mx-auto > div > div {
+        flex-wrap: wrap;
+    }
 }
 
 
