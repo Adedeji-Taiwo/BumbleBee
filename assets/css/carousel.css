@@ -977,16 +977,13 @@ section > form > div.flex.justify-end.mt-10 > button:hover {
     
     body > footer > div.px-6.py-4.mx-auto > div > div > div.text-white.text-lg {
         width: 100%;
-        justify-self: center;
-        align-self: center;
+  
     }
     body > footer > div.px-6.py-4.mx-auto > div > div {
         flex-wrap: wrap;
     }
     
-     #subscribeButton {
-        width: 80%;
-         }  
+  
 }
 
 
