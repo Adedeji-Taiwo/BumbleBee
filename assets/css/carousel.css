@@ -311,9 +311,13 @@ main {
 }
 
 #arrow{
-    font-size: 30px;
     font-weight: bold;
     margin-left: 10px;
+    align-self: center;
+}
+
+#slide1 > div > p > span.flex > span:nth-child(1), #slide2 > div > p > span.flex > span:nth-child(1), #slide3 > div > p > span.flex > span:nth-child(1) {
+    margin-bottom: 0px;
 }
 
 
@@ -1115,12 +1119,10 @@ img#logo, footer img#logo {
     display: none;
 }
     
-.slideshow-container #arrow {
-    margin-left: 5px;
-    position: relative;
-    top: 4px;
-}
 
+.box #arrow {
+    padding-top: 5%;
+}
 
 main {
     margin-top: 20%;
