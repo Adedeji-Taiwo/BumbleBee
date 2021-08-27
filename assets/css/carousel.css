@@ -1217,11 +1217,12 @@ footer > div.flex.justify-center > div {
  /*login page*/
  .login-main {
     padding: 10% auto;
-      margin-top: 40px;
+    margin-top: 50px;
 }
     
 .login-main  div { 
     width: 95%;
+    margin-top: 50px;
    
  } 
  
