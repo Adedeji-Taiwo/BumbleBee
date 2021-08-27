@@ -1017,7 +1017,7 @@ img#logo, footer img#logo {
 }
 #menus a {
     font-weight: normal;
-    font-size: small;
+    font-size: large;
 }
 
 #menus.hidden, #menus1.hidden, #menus2.hidden {
@@ -1033,13 +1033,9 @@ img#logo, footer img#logo {
     display: block;
 }
     
-#login,  #subscribe {
-    font-size: small;
+#login,  #subscribe, #\ input {
+    font-size: large;
  }
-    
-#\ input {
-    font-size: smaller;
-}
 
 #crumbs {
     margin: 0 2%;
