@@ -1013,10 +1013,11 @@ img#logo, footer img#logo {
 }
 
 #menus > div {
-    grid-gap: 5px;
+    grid-gap: 4px;
 }
 #menus a {
     font-weight: normal;
+    font-size: normal;
 }
 
 #menus.hidden, #menus1.hidden, #menus2.hidden {
@@ -1031,6 +1032,9 @@ img#logo, footer img#logo {
 #menus2 {
     display: block;
 }
+    #login,  #subscribe {
+        font-size: normal;
+       } 
 
 #crumbs {
     margin: 0 2%;
