@@ -1216,13 +1216,11 @@ footer > div.flex.justify-center > div {
 
  /*login page*/
  .login-main {
-    padding-top: 1%;
-    padding-bottom: 6%;
+    padding: 7% auto;
 }
     
 .login-main  div { 
     width: 95%;
-    margin-top: 75px;
  } 
  
  .login-main > div > div, .login-main > div > div > div.text-center, .login-main > div > div > div.flex.flex-row.justify-center.items-center.space-x-3, .login-main > div > div > div.flex.items-center.justify-center.space-x-2, .login-main form > div{
@@ -1236,7 +1234,7 @@ footer > div.flex.justify-center > div {
     
  .login-main > div > form > div.flex.items-center.justify-between.mb-6 > div.text-sm {
      text-align: right;
-    }
+ }
     
     
     
