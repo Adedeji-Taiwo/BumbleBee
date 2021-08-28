@@ -172,7 +172,7 @@ retreat = () => {
      arrow.classList.remove("arrows");
 })
 
-
+}
 
  
 /* Optional Javascript to close the radio button version by clicking it again */
