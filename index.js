@@ -158,7 +158,6 @@ function showSlidesArrow(n) {
 //Animated Arrows on hover
 proceed = () => {
   const arrows = document.querySelectorAll("span#arrow");
- console.log(arrows)
   arrows.forEach(function(arrow) {
     arrow.classList.add("arrows");
   })
@@ -167,7 +166,6 @@ proceed = () => {
 
 retreat = () => {
   const arrows = document.querySelectorAll("span#arrow");
-  console.log(arrows)
    arrows.forEach(function(arrow) {
      arrow.classList.remove("arrows");
 })
