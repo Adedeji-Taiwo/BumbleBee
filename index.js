@@ -3,7 +3,6 @@ const toggle = document.querySelector("#toggle");
 const menus = document.querySelector("#menus");
 const menus1 = document.querySelector("#menus1");
 const menus2 = document.querySelector("#menus2");
-const arrow = document.querySelectorAll("#arrow");
 
 
 
@@ -157,7 +156,8 @@ function showSlidesArrow(n) {
 
 //Animated Arrows
 proceed = () => {
-  
+  const arrow = document.querySelectorAll("#arrow");
+
   arrows.forEach(function(arrow) {
     arrow.classList.toggle("arrows");
   })
