@@ -336,7 +336,7 @@ ul li div.flex span:nth-child(1) {
     font-weight:lighter;
 }
 
-#arrow:hover, #gallery {
+.arrows {
     animation: bounce 2s ease-in-out;
     -webkit-animation: bounce 2s ease-in-out;
     animation-delay: 1000ms;
