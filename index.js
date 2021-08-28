@@ -1,7 +1,10 @@
+//variables assignation
 const toggle = document.querySelector("#toggle");
 const menus = document.querySelector("#menus");
 const menus1 = document.querySelector("#menus1");
 const menus2 = document.querySelector("#menus2");
+const arrow = document.querySelectorAll("#arrow");
+
 
 
 //toggle hamburger menu
@@ -73,7 +76,7 @@ showMenu(x)
 x.addListener(showMenu);
 
 
-
+//fixed positioning for header 
 window.onscroll = function() {
     myFunction();
 }
@@ -94,7 +97,7 @@ function myFunction() {
 
 
 
-//carousels
+//carousels automatic rendering
 var slideIndex = 0;
 showSlides();
 
@@ -121,7 +124,7 @@ function showSlides() {
 
 
 
-
+//carousel with arrow (prev, next) controls
 var slideIndexArrow = 1;
 showSlidesArrow(slideIndexArrow);
 
@@ -154,24 +157,11 @@ function showSlidesArrow(n) {
 
 //Animated Arrows
 proceed = () => {
-  const arrow = document.querySelectorAll("#arrow");
-
-  let id = null;
-  let pos = 0;
-  clearInterval(id);
-  id = setInterval(frame, 30);
-  function frame() {
-    if (pos == 20) {
-      clearInterval(id);
-    } else {
-      pos++;
-      arrow.forEach(function(arrow) {
-        arrow.style.left = `${pos}px`;
-	arrow.style.right = `${-pos}px`;
-
-      })
-    }
-  }
+  
+  arrows.forEach(function(arrow) {
+    arrow.classList.toggle("arrows");
+  })
+ 
 }
 
 
