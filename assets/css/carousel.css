@@ -1223,12 +1223,13 @@ footer > div.flex.justify-center > div {
 .signup-main {
     padding-top: 6%;
     padding-bottom: 6%;
+    width: 90%;
 }
     
 .signup-main > section {
     margin: 15% auto;
+    width: 90%;
   }
-    
     
 /*forgotten page*/
 .forgotten-main {
