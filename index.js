@@ -95,7 +95,7 @@ function myFunction() {
 
 
 
-
+/*
 //carousels automatic rendering
 var slideIndex = 0;
 showSlides();
@@ -149,7 +149,7 @@ function showSlidesArrow(n) {
  
   slides[slideIndexArrow-1].style.display = "block";
 }
-
+*/
 
 
  
@@ -223,7 +223,7 @@ observer.observe(document.querySelector("#top"));
 */
 
 
-
+/*
 // get the element to animate
 var element = document.getElementById('stat');
 var elementHeight = element.clientHeight;
@@ -279,7 +279,7 @@ counters.forEach((counter) => {
 
   }
 }
-
+*/
 
 
 
