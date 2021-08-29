@@ -1232,8 +1232,12 @@ footer > div.flex.justify-center > div {
 
 .forgotten-main form {
     width: 90%;
+      margim-top: 50%;
 }
-
+    
+.forgotten-main > section > form {
+  
+    }
 
 /*contact page*/
 .contact-main {
