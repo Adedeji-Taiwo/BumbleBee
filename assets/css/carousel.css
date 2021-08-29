@@ -1236,9 +1236,10 @@ footer > div.flex.justify-center > div {
       margim-top: 50%;
 }
     
-.forgotten-main > section > form {
+#main > section.forgetten-main > form {
    margim-top: 500px;
-    }
+  }
+  #main > section.forgetten-main > form > div
 
 /*contact page*/
 .contact-main {
