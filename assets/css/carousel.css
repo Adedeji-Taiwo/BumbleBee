@@ -1241,7 +1241,7 @@ footer > div.flex.justify-center > div {
 /*contact page*/
 .contact-main {
     width: 90%;
-     padding-top: 50px;
+    padding-top: 50px;
 }
     
  
@@ -1250,7 +1250,8 @@ footer > div.flex.justify-center > div {
 }
     
 
- 
+ .contact-main > section {
+     margin-top: 50px;
  
 
 /*help page*/ 
