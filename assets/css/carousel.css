@@ -351,10 +351,6 @@ ul li div.flex span:nth-child(1) {
     -moz-transform: translateX(12px);
     -ms-transform: translateX(12px);
     -o-transform: translateX(12px);
-}
-
-#main > div:nth-child(6) > div {
-    grid-gap: 18px;
 } 
 
 body > footer > div.px-6.py-4.mx-auto > div > div {
@@ -1125,6 +1121,11 @@ nav > div > div.flex.items-center.justify-between {
     margin-bottom: 5px;
 }
 
+  
+
+#main > div:nth-child(6) > div {
+    grid-gap: 168px;
+}
 footer > div.px-6.py-4.mx-auto > div > div > div:nth-child(1) > div.pt-5.flex.max-w-xs.items-center.ml-2 {
     margin-left: 0;
 }
