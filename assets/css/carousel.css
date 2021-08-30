@@ -354,7 +354,7 @@ ul li div.flex span:nth-child(1) {
 }
 
 #main > div:nth-child(6) > div {
-    grid-gap: 16px;
+    grid-gap: 18px;
 } 
 
 body > footer > div.px-6.py-4.mx-auto > div > div {
