@@ -1121,11 +1121,13 @@ nav > div > div.flex.items-center.justify-between {
     margin-bottom: 5px;
 }
 
-  
+#main > div:nth-child(6) > div { 
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 20px;
+}  
 
-#main > div:nth-child(6) > div {
-    grid-gap: 168px;
-}
+
 footer > div.px-6.py-4.mx-auto > div > div > div:nth-child(1) > div.pt-5.flex.max-w-xs.items-center.ml-2 {
     margin-left: 0;
 }
