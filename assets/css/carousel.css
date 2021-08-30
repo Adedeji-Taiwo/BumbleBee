@@ -1137,9 +1137,10 @@ footer > div.px-6.py-4.mx-auto {
     padding-left: 25px;
 }
 
-footer > div.px-6.py-4.mx-auto > div > div {
-    flex-direction: column;
-    grid-gap: 40px;
+body > footer > div.px-6.py-4.mx-auto > div > div {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 40px;
 }
 
 #footerTex\ text-lg {
