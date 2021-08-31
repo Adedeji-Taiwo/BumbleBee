@@ -20,14 +20,6 @@ A platform that helps startup companies and individual entrepreneurs develop the
   
 - Live link: https://bumblebee.netlify.app/
 
-## Features
-
-- Business Website.
-- Multiple Pages (6).
-- Navigation links.
-- Statistical Data Active in View.
-- Mobile responsiveness.
-
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
@@ -36,6 +28,15 @@ A platform that helps startup companies and individual entrepreneurs develop the
 - [CSS](https://www.w3schools.com/css/default.asp)
 -  [Tailwind](https://tailwindcss.com)
 - [JavaScript](https://www.w3schools.com/js/default.asp)
+
+
+## Features
+
+- Business Website.
+- Multiple Pages (6).
+- Navigation links.
+- Statistical Data Active in View.
+- Mobile responsiveness.
 
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
