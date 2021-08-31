@@ -35,7 +35,7 @@ A platform that helps startup companies and individual entrepreneurs develop the
 - Business Website.
 - Multiple Pages (6).
 - Navigation links.
-- Statistical Data Active in View.
+- Statistical Data Active on View.
 - Mobile responsiveness.
 
 
