@@ -42,7 +42,6 @@ A platform that helps startup companies and individual entrepreneurs develop the
 ## Acknowledgements
  - [Iconmonstr](https://iconmonstr.com)
  - [Tailwind](https://tailwindcss.com)
- - 
 
 ## Contact
 
